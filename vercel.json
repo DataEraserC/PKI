@@ -1,6 +1,12 @@
 {
   "rewrites": [
-    {"source": "/PKI/", "destination": "/"},
-    {"source": "/PKI/:match*", "destination": "/:match*"}
+    {
+      "source": "/PKI/",
+      "destination": "/"
+    },
+    {
+      "source": "/PKI/:match*",
+      "destination": "/:match*"
+    }
   ]
 }
