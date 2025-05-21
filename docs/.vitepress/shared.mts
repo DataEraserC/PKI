@@ -11,6 +11,7 @@ export const shared = defineConfig({
   // https://vitepress.dev/guide/routing#generating-clean-url
   cleanUrls: true,
   metaChunk: true,
+  base : "/PKI",
 
   // SEO Improvement - sitemap.xml & robots.txt
   buildEnd: async ({ outDir }) => {
