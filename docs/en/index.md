@@ -4,15 +4,14 @@ layout: home
 
 hero:
   name: "PKI of DataEraserC"
-  text: "Public Key Infrastructure of DataEraserC"
-  tagline: My great project tagline
+  tagline: "Public Key Infrastructure of DataEraserC"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Root CAs
+      link: /root-cas
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Subordinate CAs 
+      link: /subordinate-cas
 
 features:
   - title: Feature A

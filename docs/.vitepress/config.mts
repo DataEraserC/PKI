@@ -1,28 +1,24 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
+import { shared } from "./shared.mts";
+import { en } from "./en.mts";
+import { zh } from "./zh.mts";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  ...shared,
   title: "PKI of DataEraserC",
-  description: "Public Key Infrastructure of DataEraserC",
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
-})
+  rewrites: {
+    "en/:rest*": ":rest*",
+  },
+  locales: {
+    root: {
+      label: "English",
+      ...en,
+    },
+    zh: {
+      label: "简体中文",
+      ...zh,
+    },
+  },
+});
