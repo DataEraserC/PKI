@@ -4,7 +4,7 @@
 
 [nixos-and-flakes-book](https://github.com/ryan4yin/nixos-and-flakes-book/)
 
-[PKI CA of fenyin](https://ca.fenying.net/)
+[PKI CA of fenying](https://ca.fenying.net/)
 
 ## deployed places
 
