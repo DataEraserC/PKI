@@ -6,6 +6,8 @@
 
 [PKI CA of fenying](https://ca.fenying.net/)
 
+[PKI tutorials by fenying](https://fenying.net/book/pki-tutorials/)
+
 ## deployed places
 
 [Github Page](https://dataeraserc.github.io/PKI/)
